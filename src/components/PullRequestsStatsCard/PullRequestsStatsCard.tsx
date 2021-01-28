@@ -66,7 +66,7 @@ const PullRequestsStatsCard: FC<{
   };
 
   return (
-    <InfoCard title="Pull requests statistics" className={classes.infoCard}>
+    <InfoCard title="Pull request statistics" className={classes.infoCard}>
       {loadingStatistics ? (
         <CircularProgress />
       ) : (
